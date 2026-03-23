@@ -19,7 +19,6 @@ int main()
     {
         x +=1440;
     }
-
     int h = x/60;
     int m = x%60;
 
