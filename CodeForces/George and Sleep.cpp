@@ -26,5 +26,6 @@ int main()
     if(h<10) cout<<"0";
     cout<<h<<":";
     if(m<10) cout<<"0";
-    cout<<m;    
+    cout<<m;  
+    return 0;
 }
