@@ -1,5 +1,5 @@
 #include<iostream>
-#include<algorithm>
+#include<algorithm>  //for sort we have used this header file also 
 using namespace std;
 int main()
 {
@@ -14,7 +14,7 @@ int main()
       sum += arr[i];
     }
 
-    sort(arr, arr+n);
+    sort(arr, arr+n);   //this is must here in this code
     reverse(arr, arr+n);
     int count = 0;
     int my_sum = 0;
